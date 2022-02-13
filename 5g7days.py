@@ -38,7 +38,7 @@ while (loop == 'true'):
 
         print "\033[1;97mWrong Username"
 
-        os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
+        os.system('xdg-open  (https://facebook.com/groups/5g.spamming.team/)
 
 def psb(z):
     for e in z + '\n':
