@@ -99,7 +99,38 @@ def cb():
     os.system('clear')
 
 
-logo = '\x1b[1;97m--------------------------------------------------\n      ---> Create to by -> BD CYBER PREDATOR <--- \n\x1b[1;97m-------------------------------------------------- \n\x1b[1;97m     Facebook  -> Kausar Ahamed \x1b[00m\n\x1b[1;97m--------------------------------------------------\n    ---> Github -> 5G_SPAMMER_TEAM <--- \n\x1b[1;97m--------------------------------------------------'
+logo = '\x1b[1;97m--------------------------------------------------\n      ---> Create to by -> MR-KAUSAR <--- \n\1b[1;97m-------------------------------------------------- \n\x1b[1;97m     Facebook  -> Kausar Ahamed \x1b[00m\n\x1b[1;97m--------------------------------------------------\n    ---> Github -> 5G_SPAMMER_TEAM <--- \n\x1b[1;97m--------------------------------------------------'
+CorrectUsername = "5gspammingteam"
+
+CorrectPassword = "5g_spamming_team@"
+
+loop = 'true'
+
+while (loop == 'true'):
+
+    username = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Username \x1b[1;91m: \x1b[1;97m")
+
+    if (username == CorrectUsername):
+
+    	password = raw_input("\033[1;91m[+] \033[1;91m \x1b[1;91mTool Password \x1b[1;91m: \x1b[1;97m")        if (password == CorrectPassword):
+
+            print "Logged in successfully as " + username #Dev:5gspammingteam
+
+	    time.sleep(2)
+
+            loop = 'false'
+
+        else:
+
+            print "\033[1;97mWrong Password"
+
+            os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
+
+    else:
+
+        print "\033[1;97mWrong Username"
+
+        os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
 
 back = 0
 successful = []
